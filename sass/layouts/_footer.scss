@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $colour-footer;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .footer__title {
+        text-decoration: none;
+        font-size: $font-size-footer__title;
+        color: $colour-footer__title;
+        padding: 15px;
+    }
+}
