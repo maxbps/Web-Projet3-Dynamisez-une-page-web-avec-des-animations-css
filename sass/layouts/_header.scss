@@ -1,12 +1,16 @@
-    .header-title {
-        font-size: $font-size-header__title;
-        background-color: $colour-header;
+.header {
+    font-size: $font-size-header__title;
+    background-color: $colour-header;
+    color: $colour-header__title;
+    text-align: center;
+    height: 85px;
+    line-height: 85px;
+    margin-top: -32px;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 1fr;
+    .header__tittle {
+        text-decoration: none;
         color: $colour-header__title;
-        text-align: center;
-        height: 85px;
-        line-height: 85px;
-        margin-top: -32px;
-        margin-left: -8px;
-        margin-right: -8px;
-        width: 1fr;
     }
+}

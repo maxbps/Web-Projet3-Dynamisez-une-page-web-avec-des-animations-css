@@ -1,0 +1,74 @@
+.tittle {
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.menu {
+    font-family: 'Devonshire', cursive;
+    text-align: center;
+    line-height: 40%;
+    padding: 6%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: rgb(252, 223, 219);
+    color: rgb(61, 19, 25);
+    @include add-shadow;
+    .menu-picture {
+        width: 12%;
+        height: 12%;
+    }
+    .menu-tittle {
+        margin-top: 5%;
+        font-size: 4vw;
+    }
+    .menu-box {
+        margin-top: 10%;
+        .menu-box-tittle {
+            display: flex;
+            align-items: center;
+            .menu-box-tittle_left-line {
+                height: 2%;
+                width: 30%;
+                // margin: auto;
+                overflow: hidden;
+            }
+            .menu-box-tittle_text {
+                font-size: 3vw;
+                margin: auto;
+            }
+            .menu-box-tittle_right-line {
+                height: 2%;
+                width: 30%;
+                // margin: auto;
+                overflow: hidden;
+            }
+        }
+        .menu-box-dish {
+            li {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 1.9vw;
+                text-indent: -2.2rem;
+                // margin-right: 90px;
+                .bold {
+                    font-size: 1.8vw;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .menu-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .menu-bottom-picture {
+            width: 7%;
+            height: 7%;
+        }
+        .menu-bottom-tittle {
+            margin-left: 5%;
+            font-size: 3vw;
+        }
+    }
+}
