@@ -1,0 +1,19 @@
+.legal-notice {
+    margin: 10%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    font-size: 2.5vw;
+    @include add-shadow;
+    .legal-notice-tittle {
+        text-align: center;
+    }
+    .legal-notice-bloc {
+        margin-top: 40px;
+        .legal-notice-bloc-tittle {}
+    }
+}

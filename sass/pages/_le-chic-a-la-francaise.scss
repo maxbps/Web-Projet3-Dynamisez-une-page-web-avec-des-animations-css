@@ -2,6 +2,10 @@
     background-color: $le-chic-a-la-francaise-background-color;
 }
 
+.menu-tittle-le-chic-a-la-francaise {
+    @include color-gradiant ($le-chic-a-la-francaise-menu-box-first-text-color, $le-chic-a-la-francaise-menu-box-third-text-color)
+}
+
 .menu-le-chic-a-la-francaise-box-first {
     color: $le-chic-a-la-francaise-menu-box-first-text-color;
     ;

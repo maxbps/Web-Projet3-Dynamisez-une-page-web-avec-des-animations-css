@@ -1,3 +1,9 @@
 @mixin add-shadow {
     box-shadow: 0 2px 18px 0 rgba(0, 0, 0, .2);
 }
+
+@mixin color-gradiant ($color-left, $color-right) {
+    background: linear-gradient(to right, $color-left, $color-right);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -2,3 +2,7 @@
     background-color: $le-delice-des-papilles-background-color;
     color: $le-delice-des-papilles-text-color;
 }
+
+.menu-tittle-le-delice-des-papilles {
+    @include color-gradiant ($le-delice-des-papilles-tittle-color-left, $le-delice-des-papilles-tittle-color-right)
+}
