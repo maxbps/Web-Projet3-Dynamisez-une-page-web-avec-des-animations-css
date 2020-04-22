@@ -21,14 +21,10 @@
 }
 
 .menu {
-  font-family: "Devonshire", cursive;
   text-align: center;
-  line-height: 40%;
   padding: 6%;
   margin-right: 10%;
   margin-left: 10%;
-  background-color: #fcdfdb;
-  color: #3d1319;
   box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
 }
 .menu .menu-picture {
@@ -36,11 +32,11 @@
   height: 12%;
 }
 .menu .menu-tittle {
-  margin-top: 5%;
+  margin-top: 1%;
   font-size: 4vw;
 }
 .menu .menu-box {
-  margin-top: 10%;
+  margin-top: 7%;
 }
 .menu .menu-box .menu-box-tittle {
   display: flex;
@@ -61,6 +57,7 @@
   overflow: hidden;
 }
 .menu .menu-box .menu-box-dish li {
+  line-height: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,18 +68,22 @@
   font-size: 1.8vw;
   font-weight: bold;
 }
-.menu .menu-bottom {
+.menu .menu-bottom-full {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1vw;
 }
-.menu .menu-bottom .menu-bottom-picture {
+.menu .menu-bottom-full .menu-bottom-full-picture {
   width: 7%;
   height: 7%;
 }
-.menu .menu-bottom .menu-bottom-tittle {
+.menu .menu-bottom-full .menu-bottom-full-tittle {
   margin-left: 5%;
   font-size: 3vw;
+}
+.menu .menu-bottom-empty {
+  height: 10vw;
 }
 
 .footer {
@@ -140,6 +141,37 @@
   border-radius: 10px;
   margin: auto;
   font-size: 1.5rem;
+}
+
+.menu-la-note-enchantee {
+  background-color: #fcdfdb;
+  color: #3d1319;
+}
+
+.menu-le-chic-a-la-francaise {
+  background-color: #fff5fe;
+}
+
+.menu-le-chic-a-la-francaise-box-first {
+  color: #c67412;
+}
+
+.menu-le-chic-a-la-francaise-box-second {
+  color: #9e67a5;
+}
+
+.menu-le-chic-a-la-francaise-box-third {
+  color: #6e4bcc;
+}
+
+.menu-le-delice-des-papilles {
+  background-color: #edefef;
+  color: #3d1319;
+}
+
+.menu-la-palette-du-gout {
+  background-color: #fdfffd;
+  color: #3d1319;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,25 +4,21 @@
 }
 
 .menu {
-    font-family: 'Devonshire', cursive;
     text-align: center;
-    line-height: 40%;
     padding: 6%;
     margin-right: 10%;
     margin-left: 10%;
-    background-color: rgb(252, 223, 219);
-    color: rgb(61, 19, 25);
     @include add-shadow;
     .menu-picture {
         width: 12%;
         height: 12%;
     }
     .menu-tittle {
-        margin-top: 5%;
+        margin-top: 1%;
         font-size: 4vw;
     }
     .menu-box {
-        margin-top: 10%;
+        margin-top: 7%;
         .menu-box-tittle {
             display: flex;
             align-items: center;
@@ -45,6 +41,7 @@
         }
         .menu-box-dish {
             li {
+                line-height: 20%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -58,17 +55,21 @@
             }
         }
     }
-    .menu-bottom {
+    .menu-bottom-full {
         display: flex;
         justify-content: center;
         align-items: center;
-        .menu-bottom-picture {
+        padding-bottom: 1vw;
+        .menu-bottom-full-picture {
             width: 7%;
             height: 7%;
         }
-        .menu-bottom-tittle {
+        .menu-bottom-full-tittle {
             margin-left: 5%;
             font-size: 3vw;
         }
+    }
+    .menu-bottom-empty {
+        height: 10vw;
     }
 }

@@ -1,7 +1,7 @@
 .header {
     font-size: $font-size-header__title;
-    background-color: $colour-header;
-    color: $colour-header__title;
+    background-color: $color-header;
+    color: $color-header__title;
     text-align: center;
     height: 85px;
     line-height: 85px;
@@ -11,6 +11,6 @@
     width: 1fr;
     .header__tittle {
         text-decoration: none;
-        color: $colour-header__title;
+        color: $color-header__title;
     }
 }
