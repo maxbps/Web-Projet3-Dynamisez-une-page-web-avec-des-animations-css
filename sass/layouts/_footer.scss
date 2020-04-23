@@ -15,6 +15,7 @@
         color: $color-footer__title;
         padding-left: 15px;
         padding-right: 15px;
+        @include make-a-freeze;
     }
 }
 

@@ -13,6 +13,7 @@
     .box-menu {
         width: 100%;
         @include add-shadow;
+        @include make-a-zoom;
     }
 }
 

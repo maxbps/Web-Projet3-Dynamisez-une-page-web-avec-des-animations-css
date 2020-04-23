@@ -1,9 +1,62 @@
-@mixin add-shadow {
-    box-shadow: 0 2px 18px 0 rgba(0, 0, 0, .2);
-}
-
-@mixin color-gradiant ($color-left, $color-right) {
-    background: linear-gradient(to right, $color-left, $color-right);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+        @mixin add-shadow {
+            box-shadow: 0 2px 18px 0 rgba(0, 0, 0, .2);
+        }
+        
+        @mixin color-gradiant ($color-left, $color-right) {
+            background: linear-gradient(to right, $color-left, $color-right);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        @mixin make-a-zoom {
+            transition-duration: 1s;
+            &:hover {
+                transform: scale(1.2);
+                opacity: 0.5;
+            }
+        }
+        
+        @mixin make-a-freeze {
+            &:hover {
+                /* Start the shake animation and make the animation last for 0.5 seconds */
+                animation: shake 0.7s;
+                /* When the animation is finished, start again */
+                animation-iteration-count: infinite;
+            }
+        }
+        
+        @keyframes shake {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg);
+            }
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+            }
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+            }
+            30% {
+                transform: translate(3px, 2px) rotate(0deg);
+            }
+            40% {
+                transform: translate(1px, -1px) rotate(1deg);
+            }
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+            }
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+            }
+            80% {
+                transform: translate(-1px, -1px) rotate(1deg);
+            }
+            90% {
+                transform: translate(1px, 2px) rotate(0deg);
+            }
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+            }
+        }
