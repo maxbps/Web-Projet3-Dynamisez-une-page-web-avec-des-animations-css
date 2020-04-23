@@ -2,3 +2,7 @@
     background-color: $la-note-enchantee-background-color;
     color: $la-note-enchantee-text-color;
 }
+
+.menu-box-tittle-text-la-note-enchantee {
+    @include surlign ($la-note-enchantee-text-color);
+}

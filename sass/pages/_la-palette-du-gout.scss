@@ -6,3 +6,7 @@
 .menu-tittle-la-palette-du-gout {
     @include color-gradiant ($la-palette-du-gout-tittle-color-left, $la-palette-du-gout-tittle-color-right)
 }
+
+.menu-box-tittle-text-la-palette-du-gout {
+    @include surlign ($la-palette-du-gout-text-color);
+}

@@ -8,15 +8,24 @@
 
 .menu-le-chic-a-la-francaise-box-first {
     color: $le-chic-a-la-francaise-menu-box-first-text-color;
-    ;
 }
 
 .menu-le-chic-a-la-francaise-box-second {
     color: $le-chic-a-la-francaise-menu-box-second-text-color;
-    ;
 }
 
 .menu-le-chic-a-la-francaise-box-third {
     color: $le-chic-a-la-francaise-menu-box-third-text-color;
-    ;
+}
+
+.menu-box-tittle-text-le-chic-a-la-francaise-first {
+    @include surlign ($le-chic-a-la-francaise-menu-box-first-text-color);
+}
+
+.menu-box-tittle-text-le-chic-a-la-francaise-second {
+    @include surlign ($le-chic-a-la-francaise-menu-box-second-text-color);
+}
+
+.menu-box-tittle-text-le-chic-a-la-francaise-third {
+    @include surlign ($le-chic-a-la-francaise-menu-box-third-text-color);
 }

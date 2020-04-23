@@ -194,6 +194,15 @@
   color: #3d1319;
 }
 
+.menu-box-tittle-text-la-note-enchantee {
+  text-decoration: none;
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-box-tittle-text-la-note-enchantee:hover {
+  background-size: 100% 100%;
+}
+
 .menu-le-chic-a-la-francaise {
   background-color: #fff5fe;
 }
@@ -216,9 +225,36 @@
   color: #6e4bcc;
 }
 
+.menu-box-tittle-text-le-chic-a-la-francaise-first {
+  text-decoration: none;
+  background: linear-gradient(to top, #c67412 0%, #c67412 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-box-tittle-text-le-chic-a-la-francaise-first:hover {
+  background-size: 100% 100%;
+}
+
+.menu-box-tittle-text-le-chic-a-la-francaise-second {
+  text-decoration: none;
+  background: linear-gradient(to top, #9e67a5 0%, #9e67a5 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-box-tittle-text-le-chic-a-la-francaise-second:hover {
+  background-size: 100% 100%;
+}
+
+.menu-box-tittle-text-le-chic-a-la-francaise-third {
+  text-decoration: none;
+  background: linear-gradient(to top, #6e4bcc 0%, #6e4bcc 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-box-tittle-text-le-chic-a-la-francaise-third:hover {
+  background-size: 100% 100%;
+}
+
 .menu-le-delice-des-papilles {
   background-color: #edefef;
-  color: #3d1319;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .menu-tittle-le-delice-des-papilles {
@@ -227,15 +263,51 @@
   -webkit-text-fill-color: transparent;
 }
 
+.menu-box-tittle-text-le-delice-des-papilles-first {
+  text-decoration: none;
+  background: linear-gradient(to top, #0228dd 0%, #0228dd 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-box-tittle-text-le-delice-des-papilles-first:hover {
+  background-size: 100% 100%;
+}
+
+.menu-box-tittle-text-le-delice-des-papilles-second {
+  text-decoration: none;
+  background: linear-gradient(to top, #0670f3 0%, #0670f3 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-box-tittle-text-le-delice-des-papilles-second:hover {
+  background-size: 100% 100%;
+}
+
+.menu-box-tittle-text-le-delice-des-papilles-third {
+  text-decoration: none;
+  background: linear-gradient(to top, #229dff 0%, #229dff 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-box-tittle-text-le-delice-des-papilles-third:hover {
+  background-size: 100% 100%;
+}
+
 .menu-la-palette-du-gout {
   background-color: #fdfffd;
-  color: #3d1319;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .menu-tittle-la-palette-du-gout {
   background: linear-gradient(to right, #3d923a, #bfff81);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.menu-box-tittle-text-la-palette-du-gout {
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.menu-box-tittle-text-la-palette-du-gout:hover {
+  background-size: 100% 100%;
 }
 
 .legal-notice {

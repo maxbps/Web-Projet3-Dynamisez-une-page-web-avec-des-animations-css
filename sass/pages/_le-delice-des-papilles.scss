@@ -6,3 +6,15 @@
 .menu-tittle-le-delice-des-papilles {
     @include color-gradiant ($le-delice-des-papilles-tittle-color-left, $le-delice-des-papilles-tittle-color-right)
 }
+
+.menu-box-tittle-text-le-delice-des-papilles-first {
+    @include surlign ($le-delice-des-papilles-tittle-color-left);
+}
+
+.menu-box-tittle-text-le-delice-des-papilles-second {
+    @include surlign ($le-delice-des-papilles-tittle-color-middle);
+}
+
+.menu-box-tittle-text-le-delice-des-papilles-third {
+    @include surlign ($le-delice-des-papilles-tittle-color-right);
+}
