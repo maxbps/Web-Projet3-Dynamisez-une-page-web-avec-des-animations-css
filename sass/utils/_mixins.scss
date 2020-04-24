@@ -8,9 +8,12 @@
                         -webkit-text-fill-color: transparent;
                     }
                     
+                    //source https://w3bits.com/css-image-hover-zoom/
+                    //I used a container with overflow: hidden property which doesn't allow the content to be expand more than this container
                     @mixin make-a-zoom {
                         transition-duration: 1s;
                         &:hover {
+                            background: no-repeat 0 -50%;
                             transform: scale(1.2);
                             opacity: 0.5;
                         }

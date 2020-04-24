@@ -10,21 +10,88 @@
     @media (min-width: 1200px) {
         grid-template-columns: repeat(4, 1fr);
     }
-    .box-menu {
-        width: 100%;
+    .box-menu-container {
+        overflow: hidden;
         @include add-shadow;
+    }
+    .box-menu-content {
+        width: 100%;
+        margin-bottom: -5%;
         @include make-a-zoom;
     }
 }
 
 .soon {
     width: 250px;
-    height: 45px;
-    line-height: 45px;
+    height: 40px;
+    line-height: 40px;
     background-color: $color-header;
     color: $color-header__title;
     text-align: center;
     border-radius: 10px;
     margin: auto;
     font-size: 1.5rem;
+    #soon-dot-first {
+        animation-name: soon-dot-first;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    #soon-dot-second {
+        animation-name: soon-dot-second;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    #soon-dot-third {
+        animation-name: soon-dot-third;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes soon-dot-first {
+    20% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes soon-dot-second {
+    45% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes soon-dot-third {
+    70% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }

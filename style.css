@@ -148,8 +148,8 @@
 }
 
 .footer-cache {
-  margin-top: 40px;
-  background-color: white;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 47px;
 }
@@ -167,20 +167,25 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
-.grid-menu .box-menu {
-  width: 100%;
+.grid-menu .box-menu-container {
+  overflow: hidden;
   box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
+}
+.grid-menu .box-menu-content {
+  width: 100%;
+  margin-bottom: -5%;
   transition-duration: 1s;
 }
-.grid-menu .box-menu:hover {
+.grid-menu .box-menu-content:hover {
+  background: no-repeat 0 -50%;
   transform: scale(1.2);
   opacity: 0.5;
 }
 
 .soon {
   width: 250px;
-  height: 45px;
-  line-height: 45px;
+  height: 40px;
+  line-height: 40px;
   background-color: #579c87;
   color: #fdcb46;
   text-align: center;
@@ -188,7 +193,67 @@
   margin: auto;
   font-size: 1.5rem;
 }
+.soon #soon-dot-first {
+  animation-name: soon-dot-first;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.soon #soon-dot-second {
+  animation-name: soon-dot-second;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.soon #soon-dot-third {
+  animation-name: soon-dot-third;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 
+@keyframes soon-dot-first {
+  20% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes soon-dot-second {
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes soon-dot-third {
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .menu-la-note-enchantee {
   background-color: #fcdfdb;
   color: #3d1319;
