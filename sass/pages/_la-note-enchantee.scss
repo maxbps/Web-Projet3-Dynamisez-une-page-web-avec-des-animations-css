@@ -1,8 +1,10 @@
 .menu-la-note-enchantee {
     background-color: $la-note-enchantee-background-color;
     color: $la-note-enchantee-text-color;
+    font-family: 'Devonshire';
 }
 
 .menu-box-tittle-text-la-note-enchantee {
+    font-weight: normal;
     @include surlign ($la-note-enchantee-text-color);
 }

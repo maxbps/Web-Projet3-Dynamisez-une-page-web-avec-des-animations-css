@@ -73,7 +73,6 @@
 }
 .menu .menu-tittle {
   margin-top: 1%;
-  font-size: 4vw;
 }
 .menu .menu-box {
   margin-top: 7%;
@@ -88,7 +87,6 @@
   overflow: hidden;
 }
 .menu .menu-box .menu-box-tittle .menu-box-tittle_text {
-  font-size: 3vw;
   margin: auto;
 }
 .menu .menu-box .menu-box-tittle .menu-box-tittle_right-line {
@@ -105,7 +103,7 @@
   text-indent: -2.2rem;
 }
 .menu .menu-box .menu-box-dish li .bold {
-  font-size: 1.8vw;
+  font-size: 2.1vw;
   font-weight: bold;
 }
 .menu .menu-bottom-full {
@@ -264,9 +262,11 @@
 .menu-la-note-enchantee {
   background-color: #fcdfdb;
   color: #3d1319;
+  font-family: "Devonshire";
 }
 
 .menu-box-tittle-text-la-note-enchantee {
+  font-weight: normal;
   text-decoration: none;
   background: linear-gradient(to top, #3d1319 0%, #3d1319 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
@@ -277,9 +277,13 @@
 
 .menu-le-chic-a-la-francaise {
   background-color: #fff5fe;
+  font-family: "Arapey";
 }
 
 .menu-tittle-le-chic-a-la-francaise {
+  font-family: "Amita";
+  font-weight: 700;
+  font-size: 3.5vw;
   background: linear-gradient(to right, #c67412, #6e4bcc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -298,6 +302,7 @@
 }
 
 .menu-box-tittle-text-le-chic-a-la-francaise-first {
+  font-size: 2.5vw;
   text-decoration: none;
   background: linear-gradient(to top, #c67412 0%, #c67412 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
@@ -307,6 +312,7 @@
 }
 
 .menu-box-tittle-text-le-chic-a-la-francaise-second {
+  font-size: 2.5vw;
   text-decoration: none;
   background: linear-gradient(to top, #9e67a5 0%, #9e67a5 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
@@ -316,6 +322,7 @@
 }
 
 .menu-box-tittle-text-le-chic-a-la-francaise-third {
+  font-size: 2.5vw;
   text-decoration: none;
   background: linear-gradient(to top, #6e4bcc 0%, #6e4bcc 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
@@ -327,15 +334,20 @@
 .menu-le-delice-des-papilles {
   background-color: #edefef;
   color: rgba(0, 0, 0, 0.8);
+  font-family: "Handlee";
+  font-weight: 900;
 }
 
 .menu-tittle-le-delice-des-papilles {
+  font-family: "Dancing Script";
+  font-size: 6vw;
   background: linear-gradient(to right, #0228dd, #229dff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .menu-box-tittle-text-le-delice-des-papilles-first {
+  font-size: 2.1vw;
   text-decoration: none;
   background: linear-gradient(to top, #0228dd 0%, #0228dd 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
@@ -345,6 +357,7 @@
 }
 
 .menu-box-tittle-text-le-delice-des-papilles-second {
+  font-size: 2.1vw;
   text-decoration: none;
   background: linear-gradient(to top, #0670f3 0%, #0670f3 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
@@ -354,6 +367,7 @@
 }
 
 .menu-box-tittle-text-le-delice-des-papilles-third {
+  font-size: 2.1vw;
   text-decoration: none;
   background: linear-gradient(to top, #229dff 0%, #229dff 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
@@ -365,15 +379,20 @@
 .menu-la-palette-du-gout {
   background-color: #fdfffd;
   color: rgba(0, 0, 0, 0.8);
+  font-family: "Caveat";
 }
 
 .menu-tittle-la-palette-du-gout {
+  font-family: "Kaushan Script";
+  font-size: 6vw;
+  letter-spacing: 0.5vw;
   background: linear-gradient(to right, #3d923a, #bfff81);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .menu-box-tittle-text-la-palette-du-gout {
+  font-size: 2.5vw;
   text-decoration: none;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;

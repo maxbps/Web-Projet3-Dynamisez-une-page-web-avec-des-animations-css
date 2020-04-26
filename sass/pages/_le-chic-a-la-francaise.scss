@@ -1,9 +1,14 @@
 .menu-le-chic-a-la-francaise {
     background-color: $le-chic-a-la-francaise-background-color;
+    font-family: 'Arapey';
 }
 
 .menu-tittle-le-chic-a-la-francaise {
-    @include color-gradiant ($le-chic-a-la-francaise-menu-box-first-text-color, $le-chic-a-la-francaise-menu-box-third-text-color)
+    //I did not fond a font family
+    font-family: 'Amita';
+    font-weight: 700;
+    font-size: 3.5vw;
+    @include color-gradiant ($le-chic-a-la-francaise-menu-box-first-text-color, $le-chic-a-la-francaise-menu-box-third-text-color);
 }
 
 .menu-le-chic-a-la-francaise-box-first {
@@ -19,13 +24,16 @@
 }
 
 .menu-box-tittle-text-le-chic-a-la-francaise-first {
+    font-size: 2.5vw;
     @include surlign ($le-chic-a-la-francaise-menu-box-first-text-color);
 }
 
 .menu-box-tittle-text-le-chic-a-la-francaise-second {
+    font-size: 2.5vw;
     @include surlign ($le-chic-a-la-francaise-menu-box-second-text-color);
 }
 
 .menu-box-tittle-text-le-chic-a-la-francaise-third {
+    font-size: 2.5vw;
     @include surlign ($le-chic-a-la-francaise-menu-box-third-text-color);
 }

@@ -1,20 +1,27 @@
 .menu-le-delice-des-papilles {
     background-color: $le-delice-des-papilles-background-color;
     color: $le-delice-des-papilles-text-color;
+    font-family: 'Handlee';
+    font-weight: 900;
 }
 
 .menu-tittle-le-delice-des-papilles {
+    font-family: 'Dancing Script';
+    font-size: 6vw;
     @include color-gradiant ($le-delice-des-papilles-tittle-color-left, $le-delice-des-papilles-tittle-color-right)
 }
 
 .menu-box-tittle-text-le-delice-des-papilles-first {
+    font-size: 2.1vw;
     @include surlign ($le-delice-des-papilles-tittle-color-left);
 }
 
 .menu-box-tittle-text-le-delice-des-papilles-second {
+    font-size: 2.1vw;
     @include surlign ($le-delice-des-papilles-tittle-color-middle);
 }
 
 .menu-box-tittle-text-le-delice-des-papilles-third {
+    font-size: 2.1vw;
     @include surlign ($le-delice-des-papilles-tittle-color-right);
 }
