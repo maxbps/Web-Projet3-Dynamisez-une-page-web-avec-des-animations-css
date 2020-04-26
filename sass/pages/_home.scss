@@ -1,8 +1,6 @@
 .grid-menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    // grid-template-rows: 1fr 1fr;
-    // height: 60vh;
     grid-gap: 30px;
     padding-left: 50px;
     padding-right: 50px;
@@ -11,11 +9,13 @@
         grid-template-columns: repeat(4, 1fr);
     }
     .box-menu-container {
+        // I used a container and a content as I explained in the mixins file
         overflow: hidden;
         @include add-shadow;
     }
     .box-menu-content {
         width: 100%;
+        //the container was a bit bigger than the content
         margin-bottom: -5%;
         @include make-a-zoom;
     }
