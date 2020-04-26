@@ -27,10 +27,11 @@
     line-height: 40px;
     background-color: $color-header;
     color: $color-header__title;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     text-align: center;
     border-radius: 10px;
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     #soon-dot-first {
         animation-name: soon-dot-first;
         animation-duration: 1.5s;

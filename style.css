@@ -34,7 +34,6 @@
   }
 }
 .header {
-  font-size: 1.5rem;
   background-color: #579c87;
   color: #fdcb46;
   text-align: center;
@@ -48,10 +47,16 @@
 .header .header__tittle {
   text-decoration: none;
   color: #fdcb46;
+  font-size: 1.5rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.3rem;
 }
 
 .tittle {
   text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.8);
   font-size: 4.5vw;
 }
 
@@ -135,8 +140,9 @@
 }
 .footer .footer__title {
   text-decoration: none;
-  font-size: 1.5rem;
   color: #fdcb46;
+  font-size: 1.2rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -188,10 +194,11 @@
   line-height: 40px;
   background-color: #579c87;
   color: #fdcb46;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   text-align: center;
   border-radius: 10px;
   margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .soon #soon-dot-first {
   animation-name: soon-dot-first;

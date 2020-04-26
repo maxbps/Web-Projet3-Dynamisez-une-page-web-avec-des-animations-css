@@ -1,5 +1,4 @@
 .header {
-    font-size: $font-size-header__title;
     background-color: $color-header;
     color: $color-header__title;
     text-align: center;
@@ -12,5 +11,9 @@
     .header__tittle {
         text-decoration: none;
         color: $color-header__title;
+        font-size: 1.5rem;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        letter-spacing: -0.3rem;
     }
 }
