@@ -67,12 +67,16 @@
   margin-left: 10%;
   box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
 }
-.menu .menu-picture {
+.menu .menu-tittle-withPicture .menu-picture {
   width: 12%;
   height: 12%;
 }
-.menu .menu-tittle {
+.menu .menu-tittle-withPicture .menu-tittle {
   margin-top: 1%;
+}
+.menu .menu-tittle-withoutPicture .menu-tittle {
+  margin-top: 7%;
+  margin-bottom: 12%;
 }
 .menu .menu-box {
   margin-top: 7%;
@@ -267,6 +271,7 @@
 
 .menu-box-tittle-text-la-note-enchantee {
   font-weight: normal;
+  font-size: 3vw;
   text-decoration: none;
   background: linear-gradient(to top, #3d1319 0%, #3d1319 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;

@@ -6,5 +6,6 @@
 
 .menu-box-tittle-text-la-note-enchantee {
     font-weight: normal;
+    font-size: 3vw;
     @include surlign ($la-note-enchantee-text-color);
 }

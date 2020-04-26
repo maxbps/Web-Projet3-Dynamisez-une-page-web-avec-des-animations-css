@@ -11,13 +11,21 @@
     margin-right: 10%;
     margin-left: 10%;
     @include add-shadow;
-    .menu-picture {
-        width: 12%;
-        height: 12%;
+    .menu-tittle-withPicture {
+        .menu-picture {
+            width: 12%;
+            height: 12%;
+        }
+        .menu-tittle {
+            margin-top: 1%;
+            // font-size: 4vw;
+        }
     }
-    .menu-tittle {
-        margin-top: 1%;
-        // font-size: 4vw;
+    .menu-tittle-withoutPicture {
+        .menu-tittle {
+            margin-top: 7%;
+            margin-bottom: 12%;
+        }
     }
     .menu-box {
         margin-top: 7%;
