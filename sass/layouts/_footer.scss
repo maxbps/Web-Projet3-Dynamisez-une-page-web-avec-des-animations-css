@@ -9,13 +9,13 @@
     right: 0;
     height: 47px;
     line-height: 47px;
-    .footer__title {
+    .footer-title {
         text-decoration: none;
         color: $color-footer__title;
         font-size: 1.2rem;
         font-family: 'Roboto', Arial, Helvetica, sans-serif;
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
         @include make-a-freeze;
     }
 }

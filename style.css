@@ -140,15 +140,15 @@
   height: 47px;
   line-height: 47px;
 }
-.footer .footer__title {
+.footer .footer-title {
   text-decoration: none;
   color: #fdcb46;
   font-size: 1.2rem;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-.footer .footer__title:hover {
+.footer .footer-title:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.7s;
   /* When the animation is finished, start again */
