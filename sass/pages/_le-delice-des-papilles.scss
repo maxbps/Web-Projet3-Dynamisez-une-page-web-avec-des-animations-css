@@ -5,23 +5,23 @@
     font-weight: 900;
 }
 
-.menu-tittle-le-delice-des-papilles {
+.menu-title-le-delice-des-papilles {
     font-family: 'Dancing Script';
     font-size: 6vw;
-    @include color-gradiant ($le-delice-des-papilles-tittle-color-left, $le-delice-des-papilles-tittle-color-right)
+    @include color-gradiant ($le-delice-des-papilles-title-color-left, $le-delice-des-papilles-title-color-right)
 }
 
-.menu-box-tittle-text-le-delice-des-papilles-first {
+.menu-box-title-text-le-delice-des-papilles-first {
     font-size: 2.1vw;
-    @include surlign ($le-delice-des-papilles-tittle-color-left);
+    @include surlign ($le-delice-des-papilles-title-color-left);
 }
 
-.menu-box-tittle-text-le-delice-des-papilles-second {
+.menu-box-title-text-le-delice-des-papilles-second {
     font-size: 2.1vw;
-    @include surlign ($le-delice-des-papilles-tittle-color-middle);
+    @include surlign ($le-delice-des-papilles-title-color-middle);
 }
 
-.menu-box-tittle-text-le-delice-des-papilles-third {
+.menu-box-title-text-le-delice-des-papilles-third {
     font-size: 2.1vw;
-    @include surlign ($le-delice-des-papilles-tittle-color-right);
+    @include surlign ($le-delice-des-papilles-title-color-right);
 }

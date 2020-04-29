@@ -10,11 +10,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5vw;
     @include add-shadow;
-    .legal-notice-tittle {
+    .legal-notice-title {
         text-align: center;
     }
     .legal-notice-bloc {
         margin-top: 40px;
-        .legal-notice-bloc-tittle {}
+        .legal-notice-bloc-title {}
     }
 }

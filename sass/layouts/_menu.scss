@@ -1,7 +1,7 @@
-.tittle {
+.title {
     text-align: center;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    color: $menu-tittle-color;
+    color: $menu-title-color;
     font-size: 4.5vw;
 }
 
@@ -11,38 +11,38 @@
     margin-right: 10%;
     margin-left: 10%;
     @include add-shadow;
-    .menu-tittle-withPicture {
+    .menu-title-withPicture {
         .menu-picture {
             width: 12%;
             height: 12%;
         }
-        .menu-tittle {
+        .menu-title {
             margin-top: 1%;
             // font-size: 4vw;
         }
     }
-    .menu-tittle-withoutPicture {
-        .menu-tittle {
+    .menu-title-withoutPicture {
+        .menu-title {
             margin-top: 7%;
             margin-bottom: 12%;
         }
     }
     .menu-box {
         margin-top: 7%;
-        .menu-box-tittle {
+        .menu-box-title {
             display: flex;
             align-items: center;
-            .menu-box-tittle_left-line {
+            .menu-box-title_left-line {
                 height: 2%;
                 width: 30%;
                 // margin: auto;
                 overflow: hidden;
             }
-            .menu-box-tittle_text {
+            .menu-box-title_text {
                 // font-size: 2.5vw;
                 margin: auto;
             }
-            .menu-box-tittle_right-line {
+            .menu-box-title_right-line {
                 height: 2%;
                 width: 30%;
                 // margin: auto;
@@ -74,7 +74,7 @@
             width: 7%;
             height: 7%;
         }
-        .menu-bottom-full-tittle {
+        .menu-bottom-full-title {
             margin-left: 5%;
             font-size: 3vw;
         }

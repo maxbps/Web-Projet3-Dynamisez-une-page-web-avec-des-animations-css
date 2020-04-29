@@ -42,9 +42,8 @@
   margin-top: -32px;
   margin-left: -8px;
   margin-right: -8px;
-  width: 1fr;
 }
-.header .header__tittle {
+.header .header__title {
   text-decoration: none;
   color: #fdcb46;
   font-size: 1.5rem;
@@ -53,7 +52,7 @@
   letter-spacing: -0.3rem;
 }
 
-.tittle {
+.title {
   text-align: center;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.8);
@@ -67,33 +66,33 @@
   margin-left: 10%;
   box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
 }
-.menu .menu-tittle-withPicture .menu-picture {
+.menu .menu-title-withPicture .menu-picture {
   width: 12%;
   height: 12%;
 }
-.menu .menu-tittle-withPicture .menu-tittle {
+.menu .menu-title-withPicture .menu-title {
   margin-top: 1%;
 }
-.menu .menu-tittle-withoutPicture .menu-tittle {
+.menu .menu-title-withoutPicture .menu-title {
   margin-top: 7%;
   margin-bottom: 12%;
 }
 .menu .menu-box {
   margin-top: 7%;
 }
-.menu .menu-box .menu-box-tittle {
+.menu .menu-box .menu-box-title {
   display: flex;
   align-items: center;
 }
-.menu .menu-box .menu-box-tittle .menu-box-tittle_left-line {
+.menu .menu-box .menu-box-title .menu-box-title_left-line {
   height: 2%;
   width: 30%;
   overflow: hidden;
 }
-.menu .menu-box .menu-box-tittle .menu-box-tittle_text {
+.menu .menu-box .menu-box-title .menu-box-title_text {
   margin: auto;
 }
-.menu .menu-box .menu-box-tittle .menu-box-tittle_right-line {
+.menu .menu-box .menu-box-title .menu-box-title_right-line {
   height: 2%;
   width: 30%;
   overflow: hidden;
@@ -120,7 +119,7 @@
   width: 7%;
   height: 7%;
 }
-.menu .menu-bottom-full .menu-bottom-full-tittle {
+.menu .menu-bottom-full .menu-bottom-full-title {
   margin-left: 5%;
   font-size: 3vw;
 }
@@ -145,14 +144,18 @@
   color: #fdcb46;
   font-size: 1.2rem;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 .footer .footer-title:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.7s;
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
+}
+.footer .footer-title-left {
+  margin-left: 15px;
+}
+.footer .footer-title-right {
+  margin-right: 15px;
 }
 
 .footer-cache {
@@ -173,6 +176,11 @@
 @media (min-width: 1200px) {
   .grid-menu {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 450px) {
+  .grid-menu {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .grid-menu .box-menu-container {
@@ -269,14 +277,14 @@
   font-family: "Devonshire";
 }
 
-.menu-box-tittle-text-la-note-enchantee {
+.menu-box-title-text-la-note-enchantee {
   font-weight: normal;
   font-size: 3vw;
   text-decoration: none;
   background: linear-gradient(to top, #3d1319 0%, #3d1319 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-box-tittle-text-la-note-enchantee:hover {
+.menu-box-title-text-la-note-enchantee:hover {
   background-size: 100% 100%;
 }
 
@@ -285,7 +293,7 @@
   font-family: "Arapey";
 }
 
-.menu-tittle-le-chic-a-la-francaise {
+.menu-title-le-chic-a-la-francaise {
   font-family: "Amita";
   font-weight: 700;
   font-size: 3.5vw;
@@ -306,33 +314,33 @@
   color: #6e4bcc;
 }
 
-.menu-box-tittle-text-le-chic-a-la-francaise-first {
+.menu-box-title-text-le-chic-a-la-francaise-first {
   font-size: 2.5vw;
   text-decoration: none;
   background: linear-gradient(to top, #c67412 0%, #c67412 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-box-tittle-text-le-chic-a-la-francaise-first:hover {
+.menu-box-title-text-le-chic-a-la-francaise-first:hover {
   background-size: 100% 100%;
 }
 
-.menu-box-tittle-text-le-chic-a-la-francaise-second {
+.menu-box-title-text-le-chic-a-la-francaise-second {
   font-size: 2.5vw;
   text-decoration: none;
   background: linear-gradient(to top, #9e67a5 0%, #9e67a5 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-box-tittle-text-le-chic-a-la-francaise-second:hover {
+.menu-box-title-text-le-chic-a-la-francaise-second:hover {
   background-size: 100% 100%;
 }
 
-.menu-box-tittle-text-le-chic-a-la-francaise-third {
+.menu-box-title-text-le-chic-a-la-francaise-third {
   font-size: 2.5vw;
   text-decoration: none;
   background: linear-gradient(to top, #6e4bcc 0%, #6e4bcc 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-box-tittle-text-le-chic-a-la-francaise-third:hover {
+.menu-box-title-text-le-chic-a-la-francaise-third:hover {
   background-size: 100% 100%;
 }
 
@@ -343,7 +351,7 @@
   font-weight: 900;
 }
 
-.menu-tittle-le-delice-des-papilles {
+.menu-title-le-delice-des-papilles {
   font-family: "Dancing Script";
   font-size: 6vw;
   background: linear-gradient(to right, #0228dd, #229dff);
@@ -351,33 +359,33 @@
   -webkit-text-fill-color: transparent;
 }
 
-.menu-box-tittle-text-le-delice-des-papilles-first {
+.menu-box-title-text-le-delice-des-papilles-first {
   font-size: 2.1vw;
   text-decoration: none;
   background: linear-gradient(to top, #0228dd 0%, #0228dd 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-box-tittle-text-le-delice-des-papilles-first:hover {
+.menu-box-title-text-le-delice-des-papilles-first:hover {
   background-size: 100% 100%;
 }
 
-.menu-box-tittle-text-le-delice-des-papilles-second {
+.menu-box-title-text-le-delice-des-papilles-second {
   font-size: 2.1vw;
   text-decoration: none;
   background: linear-gradient(to top, #0670f3 0%, #0670f3 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-box-tittle-text-le-delice-des-papilles-second:hover {
+.menu-box-title-text-le-delice-des-papilles-second:hover {
   background-size: 100% 100%;
 }
 
-.menu-box-tittle-text-le-delice-des-papilles-third {
+.menu-box-title-text-le-delice-des-papilles-third {
   font-size: 2.1vw;
   text-decoration: none;
   background: linear-gradient(to top, #229dff 0%, #229dff 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-box-tittle-text-le-delice-des-papilles-third:hover {
+.menu-box-title-text-le-delice-des-papilles-third:hover {
   background-size: 100% 100%;
 }
 
@@ -387,7 +395,7 @@
   font-family: "Caveat";
 }
 
-.menu-tittle-la-palette-du-gout {
+.menu-title-la-palette-du-gout {
   font-family: "Kaushan Script";
   font-size: 6vw;
   letter-spacing: 0.5vw;
@@ -396,13 +404,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-.menu-box-tittle-text-la-palette-du-gout {
+.menu-box-title-text-la-palette-du-gout {
   font-size: 2.5vw;
   text-decoration: none;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 0.3vw, transparent 0.31vw) no-repeat left bottom/0 100%;
   transition: background-size 0.5s;
 }
-.menu-box-tittle-text-la-palette-du-gout:hover {
+.menu-box-title-text-la-palette-du-gout:hover {
   background-size: 100% 100%;
 }
 
@@ -419,7 +427,7 @@
   font-size: 2.5vw;
   box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
 }
-.legal-notice .legal-notice-tittle {
+.legal-notice .legal-notice-title {
   text-align: center;
 }
 .legal-notice .legal-notice-bloc {
