@@ -85,18 +85,24 @@ Nous nous positionnons sur un marché de niche, avec les meilleurs restaurants d
 ● Les titres représentant les catégories entrées, plats, desserts devront être soulignés  de gauche à droit au survol de la souris​.
 
 
+## Maquettes fournis
+
+![](screenshots-responsive/planche1b.png)
+
+![](screenshots-responsive/planche2.png)
 
 ## Capture d'ecrans
+
+
+### Sur Safari :
+
+![](screenshots-responsive/Safari.png)
 
 
 ### Sur Google Chrome :
 
 ![](screenshots-responsive/Google%20Chrome%20La%20note%20enchantée.png)
 
-
-### Sur Safari :
-
-![](screenshots-responsive/Safari.png)
 
 
 ### Sur Galaxy S5:
