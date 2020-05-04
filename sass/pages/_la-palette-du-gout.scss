@@ -8,10 +8,12 @@
     font-family: 'Kaushan Script';
     font-size: 6vw;
     letter-spacing: 0.5vw;
-    @include color-gradiant ($la-palette-du-gout-title-color-left, $la-palette-du-gout-title-color-right)
+    @include color-gradiant ($la-palette-du-gout-title-color-left, $la-palette-du-gout-title-color-right);
+    @include query-responsive;
 }
 
 .menu-box-title-text-la-palette-du-gout {
     font-size: 2.5vw;
     @include surlign ($la-palette-du-gout-text-color);
+    @include query-responsive;
 }

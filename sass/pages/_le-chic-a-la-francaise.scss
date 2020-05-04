@@ -9,6 +9,7 @@
     font-weight: 700;
     font-size: 3.5vw;
     @include color-gradiant ($le-chic-a-la-francaise-menu-box-first-text-color, $le-chic-a-la-francaise-menu-box-third-text-color);
+    @include query-responsive;
 }
 
 .menu-le-chic-a-la-francaise-box-first {
@@ -26,14 +27,17 @@
 .menu-box-title-text-le-chic-a-la-francaise-first {
     font-size: 2.5vw;
     @include surlign ($le-chic-a-la-francaise-menu-box-first-text-color);
+    @include query-responsive;
 }
 
 .menu-box-title-text-le-chic-a-la-francaise-second {
     font-size: 2.5vw;
     @include surlign ($le-chic-a-la-francaise-menu-box-second-text-color);
+    @include query-responsive;
 }
 
 .menu-box-title-text-le-chic-a-la-francaise-third {
     font-size: 2.5vw;
     @include surlign ($le-chic-a-la-francaise-menu-box-third-text-color);
+    @include query-responsive;
 }

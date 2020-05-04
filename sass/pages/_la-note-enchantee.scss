@@ -6,10 +6,12 @@
 
 .menu-title-la-note-enchantee {
     font-size: 4vw;
+    @include query-responsive;
 }
 
 .menu-box-title-text-la-note-enchantee {
     font-weight: normal;
     font-size: 3vw;
     @include surlign ($la-note-enchantee-text-color);
+    @include query-responsive;
 }

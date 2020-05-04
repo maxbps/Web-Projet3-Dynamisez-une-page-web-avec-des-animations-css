@@ -11,6 +11,10 @@
     margin-right: 10%;
     margin-left: 10%;
     @include add-shadow;
+    @media (max-width: 600px) {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
     .menu-title-withPicture {
         .menu-picture {
             width: 12%;
@@ -56,11 +60,22 @@
                 align-items: center;
                 font-size: 1.9vw;
                 text-indent: -2.2rem;
-                // margin-right: 90px;
+                @media (max-width: 600px) {
+                    text-align: center;
+                    line-height: 100%;
+                    flex-direction: column;
+                    font-size: 1.3rem;
+                }
                 .bold {
                     font-size: 2.1vw;
                     font-weight: bold;
+                    @media (max-width: 600px) {
+                        font-size: 1.3rem;
+                    }
                 }
+            }
+            @media (max-width: 600px) {
+                margin-bottom: 25%;
             }
         }
     }
@@ -76,6 +91,7 @@
         .menu-bottom-full-title {
             margin-left: 5%;
             font-size: 3vw;
+            @include query-responsive;
         }
     }
     .menu-bottom-empty {
